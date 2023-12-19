@@ -1,7 +1,6 @@
 #!/bin/bash
 
 if [[ $1 = "prod" ]] && [[ $2 = "down" || $2 = "up" ]]; then
-    cd ..
     fileEnv="docker-compose.${1}.yml"
     downOrUp=$2
     echo "Running docker-compose -f docker-compose.yml -f $fileEnv $downOrUp"
