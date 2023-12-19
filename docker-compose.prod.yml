@@ -1,0 +1,12 @@
+version: "3.4"
+services:
+  client:
+    image: client-prod-i
+    build:
+      dockerfile: DevOps/DeployDockerfile
+    container_name: client-prod-c
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production
+  
