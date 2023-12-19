@@ -1,6 +1,7 @@
-FROM node:alpine AS build
+FROM node:18.17 as build
 WORKDIR /client
 COPY package.json .
+RUN npm install -g npm@9.6.7
 RUN npm i
 COPY . .
 RUN npm run build
