@@ -1,0 +1,24 @@
+.dropDown label {
+    right: 20% !important;
+}
+
+.dropDownOptions {
+    color: #333333;
+}
+
+.icon{
+    left: 10%;
+}
+
+.label{
+    right: 0%;
+    padding-right: 20px !important;
+}
+
+.typeDropdown{
+    width: 249px !important;
+}
+
+.dropDown {
+    height: 51px !important;
+}

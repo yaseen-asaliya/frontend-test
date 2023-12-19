@@ -1,0 +1,17 @@
+.range-picker .ant-picker-active-bar {
+    background: var(--mui-palette-primary-main) !important;
+}
+
+.range-picker.css-dev-only-do-not-override-2i2tap.ant-picker-focused.ant-picker {
+    border-color: var(--mui-palette-primary-main) !important;
+}
+
+.css-dev-only-do-not-override-2i2tap.ant-picker-dropdown .ant-picker-cell .ant-picker-cell-inner,
+.css-dev-only-do-not-override-2i2tap.ant-picker-dropdown .ant-picker-time-panel-column>li.ant-picker-time-panel-cell .ant-picker-time-panel-cell-inner,
+.css-dev-only-do-not-override-2i2tap.ant-picker-dropdown .ant-picker-header-view {
+    text-align: center !important;
+}
+
+.range-picker:hover {
+    border-color: var(--mui-palette-primary-main) !important;
+}

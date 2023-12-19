@@ -1,0 +1,16 @@
+.alertContainer {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 66px;
+    width: 90vw; 
+    max-width: 1152px; 
+    margin: 0 auto; 
+  }
+  
+  .alertTitle {
+    font-family: inherit !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+  }

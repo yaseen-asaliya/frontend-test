@@ -1,0 +1,12 @@
+.optionField {
+    width: 1013px;
+}
+
+.optionField input {
+    padding: 14px 14px;
+}
+
+.addOption {
+    width: 101px;
+    height: 32px;
+}

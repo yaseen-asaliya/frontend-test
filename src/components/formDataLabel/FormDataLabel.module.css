@@ -1,0 +1,15 @@
+.data {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.label {
+  color: var(--gray-color, #333);
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+  max-height: 16px;
+}

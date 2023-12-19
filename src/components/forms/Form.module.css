@@ -1,0 +1,33 @@
+.options {
+  flex-direction: row-reverse;
+  margin-right: 0px !important;
+}
+
+.field {
+  width: 100%;
+}
+
+input::placeholder {
+  overflow: visible;
+}
+
+.fieldHeight {
+  height: 56px;
+}
+
+.textField label {
+  right: 5% !important;
+}
+
+.phone button {
+  position: absolute;
+  right: 1%;
+}
+
+.phone input {
+  padding-right: 60px;
+}
+
+* {
+  font-size: 0.875rem;
+}

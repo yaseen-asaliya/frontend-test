@@ -1,0 +1,12 @@
+.delete{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #E6E8EB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delteIcon {
+    font-size: 16px;
+    color: var(--mui-palette-error-main);
+}

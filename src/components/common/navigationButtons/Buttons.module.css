@@ -1,0 +1,18 @@
+.navigationButton {
+    height: 50px;
+}
+
+.backButton {
+    background-color: var(--mui-palette-primary-main) !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.backButtonIcon {
+    font-size: 16px;
+}
+
+.textNavigation {
+    color: #333333;
+    border-bottom: 1px solid #333333 !important;
+}

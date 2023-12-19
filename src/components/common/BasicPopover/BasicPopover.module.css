@@ -1,0 +1,14 @@
+.button {
+  border-radius: 6px;
+}
+.button:hover {
+  background: #e6e8eb;
+  transition: background 350ms;
+}
+.popover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 141px;
+  height: 64px;
+}

@@ -1,0 +1,15 @@
+.smallButton {
+    height: 50px;
+    background-color: var(--mui-palette-primary-light) !important;
+}
+
+.bigButton {
+    height: 50px;
+    width: 560px;
+    background-color: var(--mui-palette-primary-light) !important;
+}
+
+.loaderText {
+    color: gray;
+    text-align: center !important;
+}

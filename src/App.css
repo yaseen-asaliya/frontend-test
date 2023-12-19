@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'AlmaraiBold';
+    src: url('./assets/almarai/Almarai-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'AlmaraiExtraBold';
+    src: url('./assets/almarai/Almarai-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'AlmaraiLight';
+    src: url('./assets/almarai/Almarai-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'AlmaraiRegular';
+    src: url('./assets/almarai/Almarai-Regular.ttf');
+    font-weight: 400;
+}
+
+:root {
+    --field-width: 560px !important;
+    --bg-color: #F8F8F8;
+    --border-color: #E6E8EB;
+    --placeholder: #999999;
+    --disabled-tf: #B3B3B3;
+    --page-container: 24px;
+    --black-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AlmaraiRegular'; 
+    text-align: right !important;   
+}
+
+/* fonts */
+.title {
+    font-family: 'AlmaraiBold', sans-serif;
+    font-size: 24px !important;
+    line-height: 26.78px !important;
+}
+
+.label,
+.pargraph {
+    font-size: 14px !important;
+    line-height: 15.62px !important;
+}
+
+.tab-label {
+    font-family: 'AlmaraiBold', sans-serif;
+    font-size: 16px !important;
+    line-height: 17.86px !important;
+}
+.small-loader .sl-spinner1 {
+    width: 20px !important;
+}
+
+.error {
+    color: var(--mui-palette-error-main) !important;
+}
+
+.pageContainer {
+    padding: 24px;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+.pageContainerVisiblesidebar {
+    margin-top: 64px;
+    margin-right: 64px;
+}
+
+.pageContainerOpenSidebar {
+    margin-right: 232px;
+}
