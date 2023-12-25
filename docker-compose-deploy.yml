@@ -1,9 +1,7 @@
 version: "3.4"
 services:
   arttoheart.react-deploy:
-    image: react-deploy
-    build:
-      dockerfile: DevOps/DeployDockerfile
+    image: react-build
     container_name: react-deploy-container
     ports:
       - "80:80"
