@@ -5,6 +5,4 @@ services:
     container_name: react-deploy-container
     ports:
       - "80:80"
-    environment:
-      - NODE_ENV=production
   
