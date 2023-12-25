@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  arttoheart.api-build:
-    image: arttoheart-frontend-build
+  arttoheart.react-build:
+    image: react-build
     build:
       context: .
       dockerfile: DevOps/BuildDockerfile

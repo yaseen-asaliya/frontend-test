@@ -1,12 +1,12 @@
 version: "3.4"
 services:
-  client:
-    image: client-prod-i
+  arttoheart.react-deploy:
+    image: react-deploy
     build:
       dockerfile: DevOps/DeployDockerfile
-    container_name: client-prod-c
+    container_name: react-deploy-container
     ports:
-      - "8080:80"
+      - "80:80"
     environment:
       - NODE_ENV=production
   
