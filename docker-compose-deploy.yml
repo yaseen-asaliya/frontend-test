@@ -6,6 +6,6 @@ services:
       dockerfile: DevOps/DeployDockerfile
     container_name: react-deploy-container
     ports:
-      - "80:80"
+      - "8082:80"
 
   
